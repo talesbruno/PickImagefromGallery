@@ -5,6 +5,8 @@ import android.net.Uri
 import androidx.activity.ComponentActivity
 import androidx.activity.result.contract.ActivityResultContracts
 import co.talesbruno.pickimagefromgallery.domain.repository.SelectImage
+import dagger.hilt.android.qualifiers.ActivityContext
+import dagger.hilt.android.scopes.ActivityScoped
 import javax.inject.Inject
 
 class SelectImageImpl @Inject constructor(

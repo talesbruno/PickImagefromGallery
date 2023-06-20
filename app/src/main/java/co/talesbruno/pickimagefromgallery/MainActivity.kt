@@ -11,10 +11,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import co.talesbruno.pickimagefromgallery.data.repository.SelectImageImpl
 import co.talesbruno.pickimagefromgallery.presentation.screens.MainScreen
 import co.talesbruno.pickimagefromgallery.presentation.viewmodel.SelectImageViewModel
 import co.talesbruno.pickimagefromgallery.ui.theme.PickImagefromGalleryTheme
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
